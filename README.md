@@ -1,8 +1,10 @@
-# .X509 Spring Boot
+# X.509 Spring Boot
 
 [![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
 
-How to setup a client/server certificate in Spring Boot and how to create a self signed certificate for development. This setup will work for local development and server testing. If you have an internal CA these certificates can also be used for production but that setup is up to you. The Spring Boot application itself will be configured the same way, it is just the trusting and signing of the certificates that will differ. 
+How to setup a client/server certificate in Spring Boot and how to create a self signed certificate for development. The certificates are generated and signed with a minimum set of tools, the bare minimum is the JDK tools only.
+
+This example will work for local development and server testing. If you have an internal CA these certificates can also be used for production but that setup is up to you. The Spring Boot application itself will be configured the same way, it is just the trusting and signing of the certificates that will differ. 
 
 This is mainly a setup for **Jetty**. Tomcat requires your certificates to be "trusted" and therefore the setup is a little bit different.
 

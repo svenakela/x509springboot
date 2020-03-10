@@ -34,6 +34,8 @@ Certificate generation is influenced by [lightbend's Nginx setup](https://lightb
    mv -f client.jks src/test/resources/
 ```
 
+  * Take the password in the file `password_server_mysecuredserver` and update `application.properties` passwords.
+
 ### Code Config
  
  Spring Boot will add all things needed if you add the `spring-boot-starter-security` dependency to the [pom.xml](pom.xml).

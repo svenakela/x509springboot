@@ -16,8 +16,8 @@ public final class SslRequestHelper {
     // no, this is static helper class.
   }
 
-  private final static char[] storePwd = "+NSJ3KDtfEpoDg==".toCharArray();
-  private final static char[] keyPwd = "+NSJ3KDtfEpoDg==".toCharArray();
+  private final static char[] storePwd = "Z2W7jvaKfCcKgA==".toCharArray();
+  private final static char[] keyPwd = "Z2W7jvaKfCcKgA==".toCharArray();
   private final static String VALID_CRT = "classpath:client.jks";
 
   public static RestTemplate restTemplate() throws Exception {
